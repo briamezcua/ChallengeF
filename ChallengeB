@@ -1,0 +1,18 @@
+use_bpm 150
+
+use_synth :piano
+
+start=21
+
+88.times do
+  play start
+  sleep 0.25
+  start=start+1
+end
+
+start=108
+88.times do
+  play start
+  sleep 0.25
+  start=start-1
+end
